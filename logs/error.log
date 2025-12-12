@@ -1,0 +1,816 @@
+2025-12-05 20:16:55 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-05 20:16:55 - middleware.request_id_middleware - ERROR - dispatch:93 - [f76c2c27-6d2d-43bb-a484-a91642f062ef] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (1174.65ms)
+2025-12-05 20:17:10 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-05 20:17:10 - middleware.request_id_middleware - ERROR - dispatch:93 - [0692641a-0042-4e2a-ae2b-bef5e42b6c3d] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (129.0ms)
+2025-12-05 20:17:12 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-05 20:17:12 - middleware.request_id_middleware - ERROR - dispatch:93 - [5c7c5a6e-87ab-449f-a591-37a6cec1e521] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (114.26ms)
+2025-12-05 20:17:14 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-05 20:17:14 - middleware.request_id_middleware - ERROR - dispatch:93 - [67bdbd85-b898-4468-b72e-97e85b2faa62] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Remera oversize negra', 'price': 12000.0, 'stock': 30, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (63.83ms)
+2025-12-06 12:54:18 - middleware.request_id_middleware - ERROR - dispatch:93 - [9162f478-1035-4742-b83e-5d4e030cec63] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (82.91ms)
+2025-12-06 12:55:05 - middleware.request_id_middleware - ERROR - dispatch:93 - [a3c13ba3-2732-4121-85b9-4c5ab9a3f636] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (10.49ms)
+2025-12-06 13:02:15 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name) VALUES (%(name)s) RETURNING categories.id_key]
+[parameters: {'name': 'Hombre'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 13:02:15 - middleware.request_id_middleware - ERROR - dispatch:93 - [a4f085a2-bcfa-4818-92ce-594bec376cfa] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name) VALUES (%(name)s) RETURNING categories.id_key]
+[parameters: {'name': 'Hombre'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (649.64ms)
+2025-12-06 13:03:03 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 13:03:03 - middleware.request_id_middleware - ERROR - dispatch:93 - [f56c8101-234e-49d2-a10d-80814e5846c4] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (288.72ms)
+2025-12-06 13:03:19 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre//', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 13:03:19 - middleware.request_id_middleware - ERROR - dispatch:93 - [45f4c5ff-bf34-4ff1-829d-049f84556df8] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre//', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (28.77ms)
+2025-12-06 13:04:08 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre//', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 13:04:08 - middleware.request_id_middleware - ERROR - dispatch:93 - [b415c374-8b03-4da3-82f1-9b705b7f7641] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'Hombre//', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (57.27ms)
+2025-12-06 13:04:33 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hola', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 13:04:33 - middleware.request_id_middleware - ERROR - dispatch:93 - [0eb41bf8-ac3c-495f-a531-32ad1b77168a] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(1) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hola', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (28.84ms)
+2025-12-06 13:05:56 - middleware.request_id_middleware - ERROR - dispatch:93 - [edaf2663-16e0-4825-9a1a-3f52a40683c8] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (35.52ms)
+2025-12-06 14:03:19 - middleware.request_id_middleware - ERROR - dispatch:93 - [03bafc24-3185-4462-b724-09a70aeaca9a] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (130.12ms)
+2025-12-06 17:59:10 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(0) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hombre', 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-06 17:59:10 - middleware.request_id_middleware - ERROR - dispatch:93 - [2b83c4be-a7ba-49b4-8058-ad284a32ddb9] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "categories_pkey"
+DETAIL:  Key (id_key)=(0) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hombre', 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (466.57ms)
+2025-12-06 17:59:40 - middleware.request_id_middleware - ERROR - dispatch:93 - [644a2885-e176-4e99-933a-bacdb3f14af0] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (50.28ms)
+2025-12-07 16:11:45 - repositories.base_repository_impl - ERROR - error:188 - Error saving CategoryModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_categories_name"
+DETAIL:  Key (name)=(hombre) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hombre', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-07 16:11:45 - middleware.request_id_middleware - ERROR - dispatch:93 - [20b4e67a-6e7a-4332-903d-fe1ad7c41a81] ✗ POST /categories/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_categories_name"
+DETAIL:  Key (name)=(hombre) already exists.
+
+[SQL: INSERT INTO categories (name, id_key) VALUES (%(name)s, %(id_key)s)]
+[parameters: {'name': 'hombre', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (678.22ms)
+2025-12-07 16:20:31 - services.category_service - ERROR - error:188 - Failed to update category 1: CategoryModel with id 1 not found
+2025-12-07 16:20:37 - services.category_service - ERROR - error:188 - Failed to update category 2: Cannot update protected attribute: id_key
+2025-12-07 16:20:37 - middleware.request_id_middleware - ERROR - dispatch:93 - [3ed86b8e-ca3e-4de0-8010-f93ad2a14347] ✗ PUT /categories/2 - ERROR: Cannot update protected attribute: id_key (67.43ms)
+2025-12-07 16:20:43 - services.category_service - ERROR - error:188 - Failed to update category 3: CategoryModel with id 3 not found
+2025-12-07 16:26:23 - middleware.request_id_middleware - ERROR - dispatch:93 - [a7f84ddb-d4aa-4392-b0d2-623fb3a6e1fb] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (70.66ms)
+2025-12-07 19:03:24 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b5330390>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:03:24 - middleware.request_id_middleware - ERROR - dispatch:93 - [2b01826f-33e0-4a1f-804d-fdcfa2b4f8e9] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b5330390>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (943.44ms)
+2025-12-07 19:05:22 - repositories.base_repository_impl - ERROR - error:188 - Error finding CategoryModel with id 0: 1 validation error for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x7412b4797810>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:05:22 - middleware.request_id_middleware - ERROR - dispatch:93 - [35887dee-8656-4ed1-9f52-0a1a142d3aec] ✗ GET /categories/0 - ERROR: 1 validation error for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x7412b4797810>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (501.84ms)
+2025-12-07 19:08:47 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b47968d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:08:47 - middleware.request_id_middleware - ERROR - dispatch:93 - [3b589da9-4ba5-43ee-bef6-5999c2e739be] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b47968d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (389.3ms)
+2025-12-07 19:09:12 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x7412b4796590>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b53b2f90>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:09:12 - middleware.request_id_middleware - ERROR - dispatch:93 - [e219d751-b5c8-4651-ad63-a96ce1337e96] ✗ POST /products/ - ERROR: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x7412b4796590>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7412b53b2f90>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (79.26ms)
+2025-12-07 19:47:32 - middleware.request_id_middleware - ERROR - dispatch:93 - [fb875beb-e968-4932-a197-5e0237e0aa00] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (2006.58ms)
+2025-12-07 19:47:33 - middleware.request_id_middleware - ERROR - dispatch:93 - [d56c6c0d-64b4-4aa2-b849-618853472c01] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (36.06ms)
+2025-12-07 19:47:33 - middleware.request_id_middleware - ERROR - dispatch:93 - [6110cc96-188e-4812-a71c-3683e3615c4d] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (40.71ms)
+2025-12-07 19:53:26 - middleware.request_id_middleware - ERROR - dispatch:93 - [82294b56-c1a3-4015-8e45-d0206dad0984] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (84.59ms)
+2025-12-07 19:54:10 - middleware.request_id_middleware - ERROR - dispatch:93 - [8108d20e-a6c7-4c26-8ec1-0f24fceeaf6a] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (588.77ms)
+2025-12-07 19:54:10 - middleware.request_id_middleware - ERROR - dispatch:93 - [239cd517-2c23-4ff8-b1ed-c07f5bb3ecba] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (31.53ms)
+2025-12-07 19:54:10 - middleware.request_id_middleware - ERROR - dispatch:93 - [fe013459-a6dc-4e8f-a262-64425c432c69] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (14.51ms)
+2025-12-07 19:55:08 - middleware.request_id_middleware - ERROR - dispatch:93 - [bac38a27-89a1-4b37-befc-b046f723d75a] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (82.2ms)
+2025-12-07 19:55:55 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d07d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:55:55 - middleware.request_id_middleware - ERROR - dispatch:93 - [5dd3117d-f2f8-4737-bfb6-c23fe8600ebd] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d07d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (469.86ms)
+2025-12-07 19:55:59 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d22610>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d20f90>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:55:59 - middleware.request_id_middleware - ERROR - dispatch:93 - [e27e153c-610f-4552-92e5-ffbd224c264e] ✗ POST /products/ - ERROR: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d22610>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d20f90>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (45.07ms)
+2025-12-07 19:59:11 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 3 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d34d10>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d34d10>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d47110>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 19:59:11 - middleware.request_id_middleware - ERROR - dispatch:93 - [6de64418-93c7-4f39-ab11-88815aa00888] ✗ POST /products/ - ERROR: 3 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d34d10>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d34d10>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d47110>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (501.43ms)
+2025-12-07 20:02:03 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 4 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.3
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413f18e50>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 20:02:03 - middleware.request_id_middleware - ERROR - dispatch:93 - [b21579af-13d9-42ab-9ab3-3987a4a914a6] ✗ POST /products/ - ERROR: 4 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784412c161d0>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.3
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413f18e50>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (653.13ms)
+2025-12-07 20:12:25 - middleware.request_id_middleware - ERROR - dispatch:93 - [90a479c9-b012-4ae8-990c-fef3ffb1bb76] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (123.19ms)
+2025-12-07 20:12:40 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+2025-12-07 20:12:40 - middleware.request_id_middleware - ERROR - dispatch:93 - [6376a8fd-9573-43c9-a9ba-8007a0cb940a] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (471.29ms)
+2025-12-07 20:12:44 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+2025-12-07 20:12:44 - middleware.request_id_middleware - ERROR - dispatch:93 - [0bdb8e0b-ce24-481f-9882-429b16342bee] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (37.22ms)
+2025-12-07 20:12:57 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 5 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.4
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d44d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 20:12:57 - middleware.request_id_middleware - ERROR - dispatch:93 - [3dd0c863-b172-4372-b325-245334285680] ✗ POST /products/ - ERROR: 5 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cda110>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.4
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x784413d44d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (126.16ms)
+2025-12-07 20:13:32 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+2025-12-07 20:13:32 - middleware.request_id_middleware - ERROR - dispatch:93 - [4f55a5d2-9d49-4f41-825e-45fdad849252] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (75.69ms)
+2025-12-07 20:17:33 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type
+2025-12-07 20:17:33 - middleware.request_id_middleware - ERROR - dispatch:93 - [7c334b05-6fca-4974-9a90-2260fd11033f] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (618.96ms)
+2025-12-07 20:18:22 - repositories.base_repository_impl - ERROR - error:188 - Error finding CategoryModel with id 1: 5 validation errors for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.4.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 20:18:22 - middleware.request_id_middleware - ERROR - dispatch:93 - [b99cac12-bea7-4be0-8f02-abaffa509ed8] ✗ GET /categories/1 - ERROR: 5 validation errors for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.4.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413cef490>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (205.61ms)
+2025-12-07 20:18:27 - middleware.request_id_middleware - ERROR - dispatch:93 - [cc9fbe57-3a32-4a7f-92b3-82f645da2007] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (105.3ms)
+2025-12-07 20:18:27 - middleware.request_id_middleware - ERROR - dispatch:93 - [30e24212-de3a-45f3-a770-29246299a03f] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (29.27ms)
+2025-12-07 20:18:29 - middleware.request_id_middleware - ERROR - dispatch:93 - [3729a988-213b-4500-bb1b-b9b143afb898] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (64.24ms)
+2025-12-07 20:18:29 - middleware.request_id_middleware - ERROR - dispatch:93 - [41d4f2f8-2711-4bcb-b6c3-183e8300f5ee] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (48.28ms)
+2025-12-07 20:18:30 - middleware.request_id_middleware - ERROR - dispatch:93 - [de1dac16-95d7-4569-a3f7-642f2b4a3686] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (38.81ms)
+2025-12-07 20:18:47 - middleware.request_id_middleware - ERROR - dispatch:93 - [365b8caf-c58e-4db9-a256-da3e6bbc60d1] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (59.75ms)
+2025-12-07 20:18:47 - middleware.request_id_middleware - ERROR - dispatch:93 - [52ffa9ea-9d39-473f-b7da-903a29158d90] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (32.53ms)
+2025-12-07 20:19:12 - repositories.base_repository_impl - ERROR - error:188 - Error finding CategoryModel with id 1: 5 validation errors for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.4.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-07 20:19:12 - middleware.request_id_middleware - ERROR - dispatch:93 - [8fca4b9c-d2e5-437c-8868-dcd37668143f] ✗ GET /categories/1 - ERROR: 5 validation errors for CategorySchema
+products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.2.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.3.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+products.4.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x784413d88410>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (40.0ms)
+2025-12-07 20:19:28 - middleware.request_id_middleware - ERROR - dispatch:93 - [79bdf80a-7951-4025-a6fa-6998be26b50c] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (109.74ms)
+2025-12-07 20:19:28 - middleware.request_id_middleware - ERROR - dispatch:93 - [99301024-0e42-4e9b-b88f-4aa66d6caba1] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (47.47ms)
+2025-12-07 20:19:28 - middleware.request_id_middleware - ERROR - dispatch:93 - [445df636-f605-43fb-ae20-b20985bd6b24] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (37.91ms)
+2025-12-07 20:20:05 - middleware.request_id_middleware - ERROR - dispatch:93 - [18df7e69-5f50-4fb5-8468-3d205c250c23] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (76.65ms)
+2025-12-07 20:20:06 - middleware.request_id_middleware - ERROR - dispatch:93 - [d9af6cae-7cbb-46d4-a002-68a46c882754] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (51.25ms)
+2025-12-07 20:28:14 - middleware.request_id_middleware - ERROR - dispatch:93 - [ebc714af-606b-48a0-90a6-f93ad7a3863d] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (1555.26ms)
+2025-12-07 20:28:45 - middleware.request_id_middleware - ERROR - dispatch:93 - [bd09c72b-6ec1-4d4a-8c8b-7df739419da7] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (109.19ms)
+2025-12-07 20:29:45 - middleware.request_id_middleware - ERROR - dispatch:93 - [eea24697-0028-411d-b393-82ba5285f83d] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (591.52ms)
+2025-12-07 20:31:34 - middleware.request_id_middleware - ERROR - dispatch:93 - [78ff3489-27e0-48dc-8067-a27eeca7c12b] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (315.85ms)
+2025-12-07 20:33:04 - middleware.request_id_middleware - ERROR - dispatch:93 - [b70c122c-81d3-459d-a702-b6b75cb59b4d] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (365.95ms)
+2025-12-07 20:33:17 - middleware.request_id_middleware - ERROR - dispatch:93 - [77e2d383-a020-411f-a8d4-cff949bd125b] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (67.3ms)
+2025-12-07 20:43:54 - middleware.request_id_middleware - ERROR - dispatch:93 - [0e7aaa94-8314-4d45-a19d-b4c72a1729c2] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (2660.58ms)
+2025-12-07 20:45:06 - middleware.request_id_middleware - ERROR - dispatch:93 - [8eadf591-296a-4d72-b188-c7dd8164f6b1] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (2168.72ms)
+2025-12-07 20:45:07 - middleware.request_id_middleware - ERROR - dispatch:93 - [2a8e6458-33b0-48ed-8f50-4268615cd3b4] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (226.55ms)
+2025-12-07 20:45:07 - middleware.request_id_middleware - ERROR - dispatch:93 - [b450dd24-895b-408c-9837-dad8effa26ea] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (77.32ms)
+2025-12-07 20:45:07 - middleware.request_id_middleware - ERROR - dispatch:93 - [22f37b3e-9dd3-4981-8f92-e069ff9a284f] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (19.06ms)
+2025-12-09 10:49:21 - middleware.request_id_middleware - ERROR - dispatch:93 - [558003f8-e4a0-49ea-bba8-da73cc4bdcd1] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (1219.23ms)
+2025-12-09 10:49:22 - middleware.request_id_middleware - ERROR - dispatch:93 - [77bc423b-c2e0-4f3a-80d3-c4ce8e7776fa] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (64.92ms)
+2025-12-09 10:49:22 - middleware.request_id_middleware - ERROR - dispatch:93 - [c0bb1c74-5b35-4ba3-9445-9981867a0630] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (40.82ms)
+2025-12-09 10:58:26 - middleware.request_id_middleware - ERROR - dispatch:93 - [ae5c0cd3-5be1-4ff3-8915-a2dddc1e0dc9] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (1292.57ms)
+2025-12-09 10:58:26 - middleware.request_id_middleware - ERROR - dispatch:93 - [89dfe884-915a-4376-aaec-80dc1434cf2a] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (80.34ms)
+2025-12-09 10:58:27 - middleware.request_id_middleware - ERROR - dispatch:93 - [f611e410-4c11-4c76-8267-c9af2bfd99fe] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (46.83ms)
+2025-12-09 11:08:03 - middleware.request_id_middleware - ERROR - dispatch:93 - [05e5d99a-b1d4-4a9e-8d28-b6162847ac6e] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (158.61ms)
+2025-12-09 11:08:03 - middleware.request_id_middleware - ERROR - dispatch:93 - [2aa95fbe-fe34-43d9-8601-78b6ff4e428d] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (21.68ms)
+2025-12-09 11:13:20 - middleware.request_id_middleware - ERROR - dispatch:93 - [259c0014-9d1c-437a-831f-53e4ac688fce] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (93.69ms)
+2025-12-09 11:13:20 - middleware.request_id_middleware - ERROR - dispatch:93 - [190d58b1-0389-458b-ada5-59a11196a12f] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (27.8ms)
+2025-12-09 11:13:20 - middleware.request_id_middleware - ERROR - dispatch:93 - [4f012de2-cef0-42c3-b006-f0bd74becfb7] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (13.49ms)
+2025-12-09 11:13:24 - middleware.request_id_middleware - ERROR - dispatch:93 - [131e4d50-20eb-4e4f-9235-0b7de75f79a6] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (60.2ms)
+2025-12-09 11:13:24 - middleware.request_id_middleware - ERROR - dispatch:93 - [86b64688-a0f9-4b24-bb60-7e53949129a0] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (45.81ms)
+2025-12-09 11:13:49 - middleware.request_id_middleware - ERROR - dispatch:93 - [1f3f15b9-cd11-4b7d-8093-6bd482e6a8a1] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (30.77ms)
+2025-12-09 11:14:32 - middleware.request_id_middleware - ERROR - dispatch:93 - [cf4b8203-cebf-44e7-b329-470e9de3e4df] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (17.26ms)
+2025-12-09 11:17:02 - middleware.request_id_middleware - ERROR - dispatch:93 - [49215a39-7d93-4168-a4a2-79841c4a6f02] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (104.31ms)
+2025-12-09 11:17:23 - middleware.request_id_middleware - ERROR - dispatch:93 - [554ce397-b54a-4f13-93a0-5d68d1da4e3a] ✗ POST /products/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (14.92ms)
+2025-12-09 11:24:38 - services.order_service - ERROR - error:188 - Client with id 0 not found
+2025-12-09 11:25:05 - repositories.base_repository_impl - ERROR - error:188 - Error saving AddressModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "addresses" violates foreign key constraint "addresses_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO addresses (street, number, city, client_id, id_key) VALUES (%(street)s, %(number)s, %(city)s, %(client_id)s, %(id_key)s)]
+[parameters: {'street': 'string', 'number': 'string', 'city': 'string', 'client_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 11:25:05 - middleware.request_id_middleware - ERROR - dispatch:93 - [a3a83a4c-80d6-4067-af5b-e45b6c4350b0] ✗ POST /addresses/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "addresses" violates foreign key constraint "addresses_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO addresses (street, number, city, client_id, id_key) VALUES (%(street)s, %(number)s, %(city)s, %(client_id)s, %(id_key)s)]
+[parameters: {'street': 'string', 'number': 'string', 'city': 'string', 'client_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (80.37ms)
+2025-12-09 11:30:41 - middleware.request_id_middleware - ERROR - dispatch:93 - [55f85eab-c6fe-469b-8ba5-762bfa5fa40c] ✗ POST /bills/ - ERROR: 'dict' object has no attribute '_sa_instance_state' (48.43ms)
+2025-12-09 15:34:16 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(0) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id, id_key) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s, %(id_key)s)]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 15:34:16 - middleware.request_id_middleware - ERROR - dispatch:93 - [69844c3e-15b9-4313-97db-a208dea95afa] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(0) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id, id_key) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s, %(id_key)s)]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (115.45ms)
+2025-12-09 15:34:49 - middleware.request_id_middleware - ERROR - dispatch:93 - [0315aed8-235b-4c77-b93c-612a1aa31df0] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (66.81ms)
+2025-12-09 15:37:14 - middleware.request_id_middleware - ERROR - dispatch:93 - [b796780d-5ee5-4d4d-9af8-24bdace338c5] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (39.52ms)
+2025-12-09 15:37:34 - repositories.base_repository_impl - ERROR - error:188 - Error saving BillModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "bills" violates foreign key constraint "bills_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 9), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 15:37:34 - middleware.request_id_middleware - ERROR - dispatch:93 - [82d941fb-6b3f-4170-875e-661dbdb1880a] ✗ POST /bills/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "bills" violates foreign key constraint "bills_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 9), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (94.55ms)
+2025-12-09 15:38:24 - services.order_service - ERROR - error:188 - Client with id 0 not found
+2025-12-09 15:39:01 - middleware.request_id_middleware - ERROR - dispatch:93 - [ed816b30-5eef-4055-8c65-2dcbe3a494c6] ✗ GET /products/ - ERROR: 1 validation error for ProductSchema
+category_id
+  Input should be a valid integer [type=int_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.5/v/int_type (125.38ms)
+2025-12-09 17:14:36 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7dbc722bf950>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-09 17:14:36 - middleware.request_id_middleware - ERROR - dispatch:93 - [f1644f3e-9a48-4142-b4a4-4ccec5e68940] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x7dbc722bf950>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (279.14ms)
+2025-12-09 17:15:32 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "products_pkey"
+DETAIL:  Key (id_key)=(0) already exists.
+
+[SQL: INSERT INTO products (name, price, stock, category_id, id_key) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s, %(id_key)s)]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 17:15:32 - middleware.request_id_middleware - ERROR - dispatch:93 - [4a55f3ef-3e76-414b-ba47-9cf2abec2b39] ✗ POST /products/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "products_pkey"
+DETAIL:  Key (id_key)=(0) already exists.
+
+[SQL: INSERT INTO products (name, price, stock, category_id, id_key) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s, %(id_key)s)]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (93.88ms)
+2025-12-09 18:26:51 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Producto 1', 'price': 100.5, 'stock': 0, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 18:26:51 - middleware.request_id_middleware - ERROR - dispatch:93 - [01f6bbe5-5388-450c-b35a-c4365290c6c3] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(1) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'Producto 1', 'price': 100.5, 'stock': 0, 'category_id': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (396.13ms)
+2025-12-09 19:59:13 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373fd74d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-09 19:59:13 - middleware.request_id_middleware - ERROR - dispatch:93 - [1046c9d5-1f68-4c05-b914-e7de9ff5aad7] ✗ POST /products/ - ERROR: 1 validation error for ProductSchema
+category.products.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373fd74d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (216.98ms)
+2025-12-09 19:59:30 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373daa250>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373da8d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-09 19:59:30 - middleware.request_id_middleware - ERROR - dispatch:93 - [29482c58-0fd4-49bc-95c2-fd077c22c7b4] ✗ POST /products/ - ERROR: 2 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373daa250>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373da8d10>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (36.87ms)
+2025-12-09 20:00:39 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: 3 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373dc5890>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373dc5890>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373db84d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-09 20:00:39 - middleware.request_id_middleware - ERROR - dispatch:93 - [3d41242b-fb5e-4d08-9aeb-1f6a5e973712] ✗ POST /products/ - ERROR: 3 validation errors for ProductSchema
+category.products.0.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373dc5890>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.1.category
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.category.Category...bject at 0x770373dc5890>, input_type=CategoryModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+category.products.2
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.product.ProductMo...bject at 0x770373db84d0>, input_type=ProductModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (2323.95ms)
+2025-12-09 20:26:36 - repositories.base_repository_impl - ERROR - error:188 - Error deleting CategoryModel with id 0: (psycopg2.errors.NotNullViolation) null value in column "category_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 1, 0, null, 1).
+
+[SQL: UPDATE products SET category_id=%(category_id)s WHERE products.id_key = %(products_id_key)s]
+[parameters: [{'category_id': None, 'products_id_key': 1}, {'category_id': None, 'products_id_key': 2}, {'category_id': None, 'products_id_key': 3}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 20:26:36 - middleware.request_id_middleware - ERROR - dispatch:93 - [1efb5214-5f75-4ab3-b640-8d324ad05a50] ✗ DELETE /categories/0 - ERROR: (psycopg2.errors.NotNullViolation) null value in column "category_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 1, 0, null, 1).
+
+[SQL: UPDATE products SET category_id=%(category_id)s WHERE products.id_key = %(products_id_key)s]
+[parameters: [{'category_id': None, 'products_id_key': 1}, {'category_id': None, 'products_id_key': 2}, {'category_id': None, 'products_id_key': 3}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (522.93ms)
+2025-12-09 20:26:59 - repositories.base_repository_impl - ERROR - error:188 - Error deleting CategoryModel with id 0: (psycopg2.errors.NotNullViolation) null value in column "category_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 1, 0, null, 1).
+
+[SQL: UPDATE products SET category_id=%(category_id)s WHERE products.id_key = %(products_id_key)s]
+[parameters: [{'category_id': None, 'products_id_key': 1}, {'category_id': None, 'products_id_key': 2}, {'category_id': None, 'products_id_key': 3}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-09 20:26:59 - middleware.request_id_middleware - ERROR - dispatch:93 - [33843d3b-86ed-47db-9fa9-29428ea746ae] ✗ DELETE /categories/0 - ERROR: (psycopg2.errors.NotNullViolation) null value in column "category_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (string, 1, 0, null, 1).
+
+[SQL: UPDATE products SET category_id=%(category_id)s WHERE products.id_key = %(products_id_key)s]
+[parameters: [{'category_id': None, 'products_id_key': 1}, {'category_id': None, 'products_id_key': 2}, {'category_id': None, 'products_id_key': 3}]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (38.94ms)
+2025-12-10 00:28:37 - repositories.base_repository_impl - ERROR - error:188 - Error saving ReviewModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "reviews" violates foreign key constraint "reviews_product_id_fkey"
+DETAIL:  Key (product_id)=(0) is not present in table "products".
+
+[SQL: INSERT INTO reviews (rating, comment, product_id, id_key) VALUES (%(rating)s, %(comment)s, %(product_id)s, %(id_key)s)]
+[parameters: {'rating': 1.0, 'comment': 'stringstri', 'product_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 00:28:37 - middleware.request_id_middleware - ERROR - dispatch:93 - [16fc2f66-3c8e-4358-9ccc-535daafe7477] ✗ POST /reviews/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "reviews" violates foreign key constraint "reviews_product_id_fkey"
+DETAIL:  Key (product_id)=(0) is not present in table "products".
+
+[SQL: INSERT INTO reviews (rating, comment, product_id, id_key) VALUES (%(rating)s, %(comment)s, %(product_id)s, %(id_key)s)]
+[parameters: {'rating': 1.0, 'comment': 'stringstri', 'product_id': 0, 'id_key': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (37.07ms)
+2025-12-10 00:35:08 - repositories.base_repository_impl - ERROR - error:188 - Error saving ReviewModel: 1 validation error for ReviewSchema
+product.reviews.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.review.ReviewMode...bject at 0x71a2b1be9710>, input_type=ReviewModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop
+2025-12-10 00:35:08 - middleware.request_id_middleware - ERROR - dispatch:93 - [416deb7d-5975-410c-adbf-e44156bb1b99] ✗ POST /reviews/ - ERROR: 1 validation error for ReviewSchema
+product.reviews.0
+  Recursion error - cyclic reference detected [type=recursion_loop, input_value=<models.review.ReviewMode...bject at 0x71a2b1be9710>, input_type=ReviewModel]
+    For further information visit https://errors.pydantic.dev/2.5/v/recursion_loop (151.76ms)
+2025-12-10 22:28:25 - repositories.base_repository_impl - ERROR - error:188 - Error saving ClientModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s) RETURNING clients.id_key]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '585132365846'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:28:26 - middleware.request_id_middleware - ERROR - dispatch:93 - [f065a84e-f533-4b6d-b203-d0668865835e] ✗ POST /clients/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s) RETURNING clients.id_key]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '585132365846'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (520.93ms)
+2025-12-10 22:28:37 - repositories.base_repository_impl - ERROR - error:188 - Error saving ClientModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone, id_key) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s, %(id_key)s)]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '423400972609497378', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:28:37 - middleware.request_id_middleware - ERROR - dispatch:93 - [996b2479-5881-4b90-aa4a-2c6698e42b2e] ✗ POST /clients/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone, id_key) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s, %(id_key)s)]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '423400972609497378', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (44.78ms)
+2025-12-10 22:28:55 - repositories.base_repository_impl - ERROR - error:188 - Error saving ClientModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone, id_key) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s, %(id_key)s)]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '423400972609497378', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:28:55 - middleware.request_id_middleware - ERROR - dispatch:93 - [97371628-bd15-4344-aa3d-f5c17b62b5c6] ✗ POST /clients/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_clients_email"
+DETAIL:  Key (email)=(user@example.com) already exists.
+
+[SQL: INSERT INTO clients (name, lastname, email, telephone, id_key) VALUES (%(name)s, %(lastname)s, %(email)s, %(telephone)s, %(id_key)s)]
+[parameters: {'name': 'string', 'lastname': 'string', 'email': 'user@example.com', 'telephone': '423400972609497378', 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (70.43ms)
+2025-12-10 22:31:31 - repositories.base_repository_impl - ERROR - error:188 - Error saving ProductModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(0) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:31:31 - middleware.request_id_middleware - ERROR - dispatch:93 - [571fe722-59f6-41e8-9c41-b05cd6fef5c6] ✗ POST /products/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "products" violates foreign key constraint "products_category_id_fkey"
+DETAIL:  Key (category_id)=(0) is not present in table "categories".
+
+[SQL: INSERT INTO products (name, price, stock, category_id) VALUES (%(name)s, %(price)s, %(stock)s, %(category_id)s) RETURNING products.id_key]
+[parameters: {'name': 'string', 'price': 1.0, 'stock': 0, 'category_id': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (206.75ms)
+2025-12-10 22:32:59 - repositories.base_repository_impl - ERROR - error:188 - Error saving BillModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_bills_bill_number"
+DETAIL:  Key (bill_number)=(string) already exists.
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 10), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:32:59 - middleware.request_id_middleware - ERROR - dispatch:93 - [4fba5639-abe0-4e82-bff0-6c1dc521aac5] ✗ POST /bills/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_bills_bill_number"
+DETAIL:  Key (bill_number)=(string) already exists.
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 10), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (93.97ms)
+2025-12-10 22:34:15 - repositories.base_repository_impl - ERROR - error:188 - Error saving BillModel: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_bills_bill_number"
+DETAIL:  Key (bill_number)=(string) already exists.
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 10), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:34:15 - middleware.request_id_middleware - ERROR - dispatch:93 - [bd26c6d5-0aab-4a15-bae8-6ff985242436] ✗ POST /bills/ - ERROR: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "ix_bills_bill_number"
+DETAIL:  Key (bill_number)=(string) already exists.
+
+[SQL: INSERT INTO bills (bill_number, discount, date, total, payment_type, client_id, id_key) VALUES (%(bill_number)s, %(discount)s, %(date)s, %(total)s, %(payment_type)s, %(client_id)s, %(id_key)s)]
+[parameters: {'bill_number': 'string', 'discount': 0.0, 'date': datetime.date(2025, 12, 10), 'total': 0.0, 'payment_type': 'CASH', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (323.1ms)
+2025-12-10 22:42:07 - repositories.base_repository_impl - ERROR - error:188 - Error saving AddressModel: (psycopg2.errors.ForeignKeyViolation) insert or update on table "addresses" violates foreign key constraint "addresses_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO addresses (street, number, city, client_id, id_key) VALUES (%(street)s, %(number)s, %(city)s, %(client_id)s, %(id_key)s)]
+[parameters: {'street': 'string', 'number': 'string', 'city': 'string', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-12-10 22:42:07 - middleware.request_id_middleware - ERROR - dispatch:93 - [50b4d2a3-c3fe-4072-940c-f914dd7f9e67] ✗ POST /addresses/ - ERROR: (psycopg2.errors.ForeignKeyViolation) insert or update on table "addresses" violates foreign key constraint "addresses_client_id_fkey"
+DETAIL:  Key (client_id)=(0) is not present in table "clients".
+
+[SQL: INSERT INTO addresses (street, number, city, client_id, id_key) VALUES (%(street)s, %(number)s, %(city)s, %(client_id)s, %(id_key)s)]
+[parameters: {'street': 'string', 'number': 'string', 'city': 'string', 'client_id': 0, 'id_key': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (40.83ms)
+2025-12-10 23:03:52 - services.order_detail_service - ERROR - error:188 - Insufficient stock for product 1: requested 1, available 0
+2025-12-10 23:03:52 - middleware.request_id_middleware - ERROR - dispatch:93 - [2d7f2ae9-c64a-4169-9485-db656e411562] ✗ POST /order_details/ - ERROR: Insufficient stock for product 1. Requested: 1, Available: 0 (637.09ms)
+2025-12-10 23:04:23 - services.order_detail_service - ERROR - error:188 - Insufficient stock for product 1: requested 1, available 0
+2025-12-10 23:04:23 - middleware.request_id_middleware - ERROR - dispatch:93 - [e43a116f-1f8c-42cc-ab7a-8ac804d8f331] ✗ POST /order_details/ - ERROR: Insufficient stock for product 1. Requested: 1, Available: 0 (37.13ms)
+2025-12-10 23:04:37 - services.order_detail_service - ERROR - error:188 - Insufficient stock for product 1: requested 1, available 0
+2025-12-10 23:04:37 - middleware.request_id_middleware - ERROR - dispatch:93 - [3d81e3d1-504b-4df0-954c-ba7ae1390151] ✗ POST /order_details/ - ERROR: Insufficient stock for product 1. Requested: 1, Available: 0 (17.26ms)
